@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/mind"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#d8000000"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="231dp"
+            android:layout_height="244dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/mind3" />
+
+        <Button
+            android:id="@+id/ir_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/btn_redondeado_white"
+            android:elevation="5dp"
+            android:text="Iniciar Sesión"
+            android:textColor="#04B486"
+            android:textSize="16dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/ir_facebook"
+            android:background="@drawable/btn_redondeado_facebook"
+            android:textColor="#F5F5FA"
+            android:elevation="5dp"
+            android:layout_marginBottom="30dp"
+            android:textSize="16dp"
+            android:text="Iniciar Facebook"
+            android:textAllCaps="false"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="¿Aún no tienes cuenta?"
+                android:textColor="#fff"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/registar"
+                android:layout_width="175dp"
+                android:layout_height="34dp"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/transparent"
+                android:text="CREAR CUENTA"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

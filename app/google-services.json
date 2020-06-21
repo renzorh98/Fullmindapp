@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "405885543544",
+    "firebase_url": "https://fullmind-70438.firebaseio.com",
+    "project_id": "fullmind-70438",
+    "storage_bucket": "fullmind-70438.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405885543544:android:b9f2d9896fb66adc38b98d",
+        "android_client_info": {
+          "package_name": "com.example.fullmindapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405885543544-i54cjrkb6il1igq2115fkdvmnvm551g1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fullmindapp",
+            "certificate_hash": "d0f6054097c12dacab4ab4ac5e3ccb73dec6ce22"
+          }
+        },
+        {
+          "client_id": "405885543544-1shdg4sopq0acorrdk2md6l72jet776b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNfPmx0icBeG5UmgYFux3sJ8w-kCNphKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405885543544-1shdg4sopq0acorrdk2md6l72jet776b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

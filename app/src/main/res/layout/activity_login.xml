@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/mind"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#d8000000"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:src="@drawable/mind3"
+            android:layout_marginBottom="50dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_nm"
+            android:hint="Nombre de usuario"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/input"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#ccc"
+            android:textColor="@color/white"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_contrasena"
+            android:hint="Contraseña"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/input"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#ccc"
+            />
+
+        <EditText
+            android:id="@+id/remember"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="end"
+            android:text="¿Olvidaste tu contraseña?"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/btn_fondo_color1"
+            android:elevation="5dp"
+            android:text="Iniciar sesión"
+            android:textColor="#fff"
+            android:textSize="16dp" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
